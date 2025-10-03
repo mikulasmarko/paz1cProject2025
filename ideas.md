@@ -7,3 +7,5 @@ napady na projekt:
 2. appka s databazou objektov na nocnej oblohe (hviezdy, planety, hviezdokopy...), kde by si si o vsetkom vdel pozriet informacie,
    podla aktualneho casu by si ukazalo ako a kde to je vidno na oblohe,
    vedel by si si tam davat vlastne pozorovania danych objektov, robit si akoby zapisky z pozorovani atd.
+
+3. kioskovy podpisovaci system 
