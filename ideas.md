@@ -9,3 +9,5 @@ napady na projekt:
    vedel by si si tam davat vlastne pozorovania danych objektov, robit si akoby zapisky z pozorovani atd.
 
 3. kioskovy podpisovaci system 
+
+4. dochadzkovy system 
