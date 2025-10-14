@@ -29,7 +29,8 @@ Okná:
 - Adminské rozhranie
 - Zamestnanecké dochádzkové rozhranie
 - Superadminské rozhranie
-  Entity:
+
+Entity:
 - Zákazník
 - Zamestnanec/admin/superadmin
 - Návšteva
