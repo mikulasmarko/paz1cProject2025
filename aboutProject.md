@@ -13,6 +13,7 @@ Zámer:
 - Šetrenie zdrojmi – papier, toner, ...
 - Urýchlenie procesu registrácie
 - Zaznamenávanie návštev
+- moznost vyuzit registraciu na prihlasenie k odberaniu noviniek (subscription plan)
 
 - Adminské rozhranie, správa používateľov
 - Superadmin
