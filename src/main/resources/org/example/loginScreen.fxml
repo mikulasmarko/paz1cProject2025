@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example">
+   <children>
+      <Label layoutX="115.0" layoutY="113.0" text="Prevádzkový poriadok JUMP Aréna Košice">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button id="registrationButton" fx:id="registrationButton" layoutX="209.0" layoutY="170.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="187.0" text="REGISTRÁCIA" textAlignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button id="loginButton" fx:id="loginButton" layoutX="208.0" layoutY="225.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="187.0" text="PRIHLÁSENIE" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button id="languageENButton" fx:id="languageButtonEN" layoutX="543.0" layoutY="21.0" mnemonicParsing="false" text="EN" />
+      <Button id="themeButton" fx:id="darkLightButton" layoutX="503.0" layoutY="354.0" mnemonicParsing="false" text="Dark/Light" />
+      <Button id="languageSKButton" fx:id="languageButtonSK" layoutX="503.0" layoutY="21.0" mnemonicParsing="false" text="SK" />
+      <Button id="settingsButton" fx:id="settingsButton" layoutX="26.0" layoutY="354.0" mnemonicParsing="false" text="settings" />
+   </children>
+</AnchorPane>
