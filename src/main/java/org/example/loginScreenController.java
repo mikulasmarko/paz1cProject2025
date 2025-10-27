@@ -1,9 +1,9 @@
-package org;
+package org.example;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
-public class example {
+public class loginScreenController {
 
     @FXML
     private Button darkLightButton;
