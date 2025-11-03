@@ -1,4 +1,4 @@
-package org.example;
+package org.example.QrCode;
 
 /*
  * Fast QR Code generator library

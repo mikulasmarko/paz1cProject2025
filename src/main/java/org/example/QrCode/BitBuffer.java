@@ -21,7 +21,7 @@
  *   out of or in connection with the Software or the use or other dealings in the
  *   Software.
  */
-package org.example;
+package org.example.QrCode;
 import java.util.Arrays;
 import java.util.Objects;
 
