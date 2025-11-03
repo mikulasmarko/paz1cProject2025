@@ -45,7 +45,6 @@ Zákazník:
 - Dátum narodenia
 - E-mail
 - Tel. číslo
-- Posledná návšteva
 
 Zamestnanec:
 - Meno
