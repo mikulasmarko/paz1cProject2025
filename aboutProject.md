@@ -46,7 +46,6 @@ Zákazník:
 - E-mail
 - Tel. číslo
 - Posledná návšteva
-- QR kód (číslo)
 
 Zamestnanec:
 - Meno
