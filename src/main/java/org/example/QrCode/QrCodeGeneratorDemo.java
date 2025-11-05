@@ -72,7 +72,7 @@ public final class QrCodeGeneratorDemo {
     // Creates a variety of QR Codes that exercise different features of the library, and writes each one to file.
     private static void doVarietyDemo() throws IOException {
         QrCode qr;
-        String cisloZakaznika = "540678";
+        String cisloZakaznika = "mikulasko12345";
         // Numeric mode encoding (3.33 bits per digit)
         qr = QrCode.encodeText(cisloZakaznika, QrCode.Ecc.MEDIUM);
         writePng(toImage(qr, 13, 1), "src/main/resources/qrCodesGenerated/" + cisloZakaznika + ".png");
