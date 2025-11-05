@@ -24,7 +24,7 @@ public class emailSender {
 		messageBodyPart.setText("attachment test");
 
 		MimeBodyPart attachmentPart = new MimeBodyPart();
-		attachmentPart.attachFile(new File("D:\\Mamut\\IntelliJ\\PAZ1_C_cvika\\paz1cProject2025\\540678.png"));
+		attachmentPart.attachFile(new File("src/main/resources/qrCodesGenerated/540678.png"));
 
 		Multipart multipart = new MimeMultipart();
 		multipart.addBodyPart(messageBodyPart);
