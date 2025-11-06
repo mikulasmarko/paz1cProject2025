@@ -15,36 +15,29 @@ public class emailSender {
     private static final String appPassword = "djsv akwy biqp tcyr";
 
     public static void main(String[] args) throws MessagingException, IOException {
-        int i = 0;
-        while (i != 15) {
+
 
             Message message = new MimeMessage(getEmailSession());
             message.setFrom(new InternetAddress(emailFrom));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(emailTo));
-            message.setSubject("jebem ti mater");
+            message.setSubject("Registrácia");
 
-//            BodyPart messageBodyPart = new MimeBodyPart();
-//            messageBodyPart.setText("attachment test");
-//
-//            MimeBodyPart attachmentPart = new MimeBodyPart();
-//            attachmentPart.attachFile(new File("src/main/resources/qrCodesGenerated/540678.png"));
-//
-//            Multipart multipart = new MimeMultipart();
-//            multipart.addBodyPart(messageBodyPart);
-//            multipart.addBodyPart(attachmentPart);
-//
-//            message.setContent(multipart);
+            BodyPart messageBodyPart = new MimeBodyPart();
+            messageBodyPart.setText("Registrácia úspešná");
 
-            message.setText("""
-                    lubim ta
-                    ked sa na teba pozriem
-                    moja laska k tebe je nekonecna
-                    ahhhhhh
-                    matusko""");
+            MimeBodyPart attachmentPart = new MimeBodyPart();
+            attachmentPart.attachFile(new File("src/main/resources/qrCodesGenerated/540678.png"));
+
+            Multipart multipart = new MimeMultipart();
+            multipart.addBodyPart(messageBodyPart);
+            multipart.addBodyPart(attachmentPart);
+
+            message.setContent(multipart);
+
             Transport.send(message);
-            System.out.println("email sent, cislo: " + (i + 1));
-            i++;
-        }
+            System.out.println("email sent");
+
+
     }
 
     private static Session getEmailSession() {
