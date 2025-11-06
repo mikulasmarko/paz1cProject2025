@@ -25,43 +25,17 @@ Okná:
 - Hlavné okno – nová registrácia / už registrovaný, prechod do admin rozhrania / dochádzka, sk/en, svetlý/tmavý režim
 - Registračné okno - formulár
 - Potvrdzovacie okno – súhlas s poriadkom
-- Už registrovaný zákazník – načítanie čipovej karty
+- Už registrovaný zákazník – načítanie QR kódu
 - Adminské prihlasovacie rozhranie
 - Adminské rozhranie
 - Zamestnanecké dochádzkové rozhranie
 - Superadminské rozhranie
 
-Entity:
-- Zákazník
-- Zamestnanec/admin/superadmin
-- Návšteva
+Entities:
+- Person (Zákazník, zamestnanec, admin, superadmin)
+- Attendance
+- Document
+- Permission
+- Position
+- Log
 
-Databáza:
-
-Zákazník:
-- Meno
-- Priezvisko
-- Id
-- Dátum narodenia
-- E-mail
-- Tel. číslo
-
-Zamestnanec:
-- Meno
-- Priezvisko
-- Id
-- E-mail
-- Tel. číslo
-- QR kód (číslo)
-- Oprávnenia (admin, superadmin, zamestnanec)
-
-Dochádzka (pre zamestnancov):
-- Id záznamu
-- Id zamestnanca
-- Čas prihlásenia (tttttt:dd:mm:yyyy)
-- Čas odhlásenia (tttttt:dd:mm:yyyy)
-
-Registrácia návštev (analytické záležitosti):
-- Id záznamu
-- Id návštevníka
-- Dátum návštevy (tttttt:dd:mm:yyyy)
