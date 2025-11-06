@@ -10,9 +10,9 @@ import java.util.Properties;
 
 public class emailSender {
 
-    private static final String emailFrom = "tomasjedno.noreply@gmail.com";
+    private static final String emailFrom = emailConstants.APP_MAIL;
     private static final String emailTo = "matus.klimko@student.upjs.sk";
-    private static final String appPassword = "djsv akwy biqp tcyr";
+    private static final String appPassword = emailConstants.EMAIL_APP_PASS;
 
     public static void main(String[] args) throws MessagingException, IOException {
 
