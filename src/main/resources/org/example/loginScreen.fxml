@@ -7,14 +7,14 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.loginScreenController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controllers.loginScreenController">
    <children>
       <Label layoutX="115.0" layoutY="113.0" text="Prevádzkový poriadok JUMP Aréna Košice">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Button id="registrationButton" fx:id="registrationButton" layoutX="209.0" layoutY="170.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="187.0" text="REGISTRÁCIA" textAlignment="CENTER">
+      <Button id="registrationButton" fx:id="registrationButton" onAction="#onRegistrationButtonClick" layoutX="209.0" layoutY="170.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="187.0" text="REGISTRÁCIA" textAlignment="CENTER">
          <font>
             <Font size="19.0" />
          </font>
