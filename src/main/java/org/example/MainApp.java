@@ -9,7 +9,7 @@ import javafx.scene.Scene;
 public class MainApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        var loader = new FXMLLoader(getClass().getResource("mainScreenSk.fxml"));
+        var loader = new FXMLLoader(getClass().getResource("/org/example/sk/mainScreenSk.fxml"));
         Parent rootPane = loader.load();
 
         var scene = new Scene(rootPane);

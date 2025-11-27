@@ -1,4 +1,4 @@
-package org.example.Controllers;
+package org.example.Controllers.Sk;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -22,8 +22,8 @@ public class mainSceenSkController {
 
     @FXML
     void initialize() {
-        loginButtonSk.setOnAction(event -> switchScene("/org/example/QRcodeLoginSk.fxml"));
-        registrationButtonSk.setOnAction(event -> switchScene("/org/example/registrationPageSK.fxml"));
+        loginButtonSk.setOnAction(event -> switchScene("/org/example/sk/QRcodeLoginSk.fxml"));
+        registrationButtonSk.setOnAction(event -> switchScene("/org/example/sk/registrationPageSK.fxml"));
     }
 
     private void switchScene(String fxmlPath) {

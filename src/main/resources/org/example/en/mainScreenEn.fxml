@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controllers.mainSceenSkController">
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controllers.Sk.mainSceenSkController">
    <children>
       <HBox alignment="TOP_RIGHT" fillHeight="false" maxHeight="50.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
          <children>
@@ -25,12 +25,12 @@
          <children>
             <VBox alignment="CENTER" prefHeight="200.0" prefWidth="800.0" HBox.hgrow="ALWAYS">
                <children>
-                  <Label text="Prevádzkový poriadok" VBox.vgrow="ALWAYS">
+                  <Label text="Something something idk" VBox.vgrow="ALWAYS">
                      <font>
                         <Font size="40.0" />
                      </font>
                   </Label>
-                  <Label text="JUMP Aréna Košice">
+                  <Label text="JUMP Arena Košice">
                      <font>
                         <Font size="40.0" />
                      </font>
@@ -38,7 +38,7 @@
                         <Insets bottom="30.0" />
                      </VBox.margin>
                   </Label>
-                  <Button fx:id="loginButtonSk" mnemonicParsing="false" prefWidth="150.0" text="Prihlásenie">
+                  <Button fx:id="loginButtonSk" mnemonicParsing="false" prefWidth="150.0" text="Sign In">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -46,7 +46,7 @@
                         <Insets bottom="15.0" />
                      </VBox.margin>
                   </Button>
-                  <Button fx:id="registrationButtonSk" mnemonicParsing="false" prefWidth="150.0" text="Registrácia">
+                  <Button fx:id="registrationButtonSk" mnemonicParsing="false" prefWidth="150.0" text="Register">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -59,7 +59,7 @@
          <children>
             <HBox alignment="BOTTOM_LEFT" prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
                <children>
-                  <Button fx:id="settingsButtonSk" mnemonicParsing="false" prefWidth="80.0" text="Nastavenia">
+                  <Button fx:id="settingsButtonSk" mnemonicParsing="false" prefWidth="80.0" text="Settings">
                      <HBox.margin>
                         <Insets bottom="20.0" left="20.0" />
                      </HBox.margin>
