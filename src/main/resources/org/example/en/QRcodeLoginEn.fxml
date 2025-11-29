@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controllers.Sk.QRcodeLoginSkController">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controllers.En.QRcodeLoginEnController">
    <children>
       <Label text="Sign in" VBox.vgrow="ALWAYS">
          <font>
@@ -26,19 +26,19 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField fx:id="inputNumberSk" maxWidth="400.0" promptText="Customer number">
+      <TextField fx:id="inputNumberEn" maxWidth="400.0" promptText="Customer number">
          <VBox.margin>
             <Insets />
          </VBox.margin>
       </TextField>
       <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
          <children>
-            <Button fx:id="backButtonSk" mnemonicParsing="false" prefWidth="100.0" text="Back">
+            <Button fx:id="cancelButtonEn" mnemonicParsing="false" prefWidth="100.0" text="Cancel">
                <HBox.margin>
                   <Insets right="50.0" top="20.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="loginButtonSk" mnemonicParsing="false" prefWidth="100.0" text="Sign in">
+            <Button fx:id="loginButtonEn" mnemonicParsing="false" prefWidth="100.0" text="Sign in">
                <HBox.margin>
                   <Insets top="20.0" />
                </HBox.margin>

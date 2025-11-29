@@ -7,7 +7,7 @@ import javafx.scene.control.TextField;
 public class QRcodeLoginSkController {
 
     @FXML
-    private Button backButtonSk;
+    private Button cancelButtonSk;
 
     @FXML
     private TextField inputNumberSk;
@@ -17,14 +17,14 @@ public class QRcodeLoginSkController {
 
     @FXML
     void initialize() {
-        backButtonSk.setOnAction(event -> switchScene("/org/example/sk/mainScreenSk.fxml"));
+        cancelButtonSk.setOnAction(event -> switchScene("/org/example/sk/mainScreenSk.fxml"));
     }
 
     private void switchScene(String fxmlPath) {
         try {
             javafx.fxml.FXMLLoader loader = new javafx.fxml.FXMLLoader(getClass().getResource(fxmlPath));
             javafx.scene.Parent root = loader.load();
-            javafx.stage.Stage stage = (javafx.stage.Stage) backButtonSk.getScene().getWindow();
+            javafx.stage.Stage stage = (javafx.stage.Stage) cancelButtonSk.getScene().getWindow();
             stage.setScene(new javafx.scene.Scene(root));
             stage.show();
         } catch (java.io.IOException e) {
