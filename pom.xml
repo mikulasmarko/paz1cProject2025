@@ -17,7 +17,6 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
@@ -33,6 +32,16 @@
             <artifactId>angus-mail</artifactId>
             <version>2.0.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>2.0.29</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-swing</artifactId>
+            <version>23</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -45,8 +54,6 @@
                     <mainClass>org.example.MainApp</mainClass>
                 </configuration>
             </plugin>
-
-
         </plugins>
     </build>
 

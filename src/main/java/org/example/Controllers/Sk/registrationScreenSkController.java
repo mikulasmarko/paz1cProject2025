@@ -14,6 +14,7 @@ public class registrationScreenSkController {
     @FXML
     void initialize() {
         cancelButtonSk.setOnAction(event -> switchScene("/org/example/sk/mainScreenSk.fxml"));
+        registerButtonSk.setOnAction(event -> switchScene("/org/example/sk/documentSk.fxml"));
     }
 
     private void switchScene(String fxmlPath) {
