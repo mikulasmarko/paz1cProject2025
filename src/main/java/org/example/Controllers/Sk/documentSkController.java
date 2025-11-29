@@ -18,7 +18,7 @@ public class documentSkController {
 
     @FXML
     void initialize() {
-        cancelButtonSk.setOnAction(event -> switchScene("/org/example/sk/registrationPageSK.fxml"));
+        cancelButtonSk.setOnAction(event -> switchScene("/org/example/sk/registrationPageSk.fxml"));
 
         try {
             // Load PDF document

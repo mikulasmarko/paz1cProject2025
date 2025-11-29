@@ -23,7 +23,7 @@ public class mainSceenSkController {
     @FXML
     void initialize() {
         loginButtonSk.setOnAction(event -> switchScene("/org/example/sk/QRcodeLoginSk.fxml"));
-        registrationButtonSk.setOnAction(event -> switchScene("/org/example/sk/registrationPageSK.fxml"));
+        registrationButtonSk.setOnAction(event -> switchScene("/org/example/sk/registrationPageSk.fxml"));
         skToEnButton.setOnAction(event -> switchScene("/org/example/en/mainScreenEn.fxml"));
     }
 
