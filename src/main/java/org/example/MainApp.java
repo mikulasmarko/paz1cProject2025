@@ -7,15 +7,16 @@ import javafx.stage.Stage;
 import javafx.scene.Scene;
 
 public class MainApp extends Application {
-    @Override
-    public void start(Stage stage) throws Exception {
-        var loader = new FXMLLoader(getClass().getResource("/org/example/sk/mainScreenSk.fxml"));
-        Parent rootPane = loader.load();
 
-        var scene = new Scene(rootPane);
-        stage.setTitle("JUMPSYS");
-        stage.setScene(scene);
-        stage.show();
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/sk/mainScreenSk.fxml"));
+        Parent root = loader.load();
+        primaryStage.setTitle("paz1cProjekt");
+        primaryStage.setScene(new Scene(root));
+        primaryStage.setFullScreenExitHint("");
+        primaryStage.setFullScreen(true);
+        primaryStage.show();
     }
 
     // WARNING: This main is used for running the app from terminal using `mvn

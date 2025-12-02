@@ -24,9 +24,8 @@ public class QRcodeLoginEnController {
         try {
             javafx.fxml.FXMLLoader loader = new javafx.fxml.FXMLLoader(getClass().getResource(fxmlPath));
             javafx.scene.Parent root = loader.load();
-            javafx.stage.Stage stage = (javafx.stage.Stage) cancelButtonEn.getScene().getWindow();
-            stage.setScene(new javafx.scene.Scene(root));
-            stage.show();
+            javafx.stage.Stage stage = (javafx.stage.Stage) loginButtonEn.getScene().getWindow();
+            stage.getScene().setRoot(root);
         } catch (java.io.IOException e) {
             e.printStackTrace();
         }
